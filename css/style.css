@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url(//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css);
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+.modal-dialog {
+    max-width: 600px;
+}
+
+.modal-content{
+    border-radius: 0;
+    border: 1px solid #d33d37;
+    border-top: 3px solid #d33d37;
+    border-bottom: 3px solid #d33d37;
+}
+
+.modal-title{
+    font-size: 20px;
+    color: #000;
+}
+
+.modal-title span{
+    color:#d33d37;
+}
+
+.modal-header{
+    box-shadow: 0px 0px 5px 0px #0000005c;
+    border-radius: 0;
+}
+
+.close{
+    color: #d33d37;
+    opacity: 1;
+    font-size: 28px;
+}
+
+.align-center{
+    align-items: center;
+}
+
+.blue{
+    color:#054060;
+}
+
+.modal h5{
+    font-size: 18px;
+    margin: 0;
+}
+
+.modal select{
+    width:100%;
+    padding:10px;
+    border:1px solid #ddd;
+}
+
+.modal .item{
+    margin:10px 0;
+}
+
+.input-group{
+    margin:10px 0;
+}
+
+hr{
+    width: 100%;
+    margin: 10px 15px;
+}
+
+.starrating > input {display: none;}  /* Remove radio buttons */
+
+.starrating > label:before { 
+  content: "\f005"; /* Star */
+  margin: 2px;
+  font-size: 1em;
+  font-family: FontAwesome;
+  display: inline-block; 
+}
+
+.starrating > label
+{
+  color: #222222; /* Start color when not clicked */
+}
+
+.starrating > input:checked ~ label
+{ color: #ffca08 ; } /* Set yellow color when star checked */
+
+.starrating > input:hover ~ label
+{ color: #ffca08 ;  } /* Set yellow color when star hover */
