@@ -139,3 +139,15 @@ hr{
     border-radius: 0;
     box-shadow: 0px 0px 12px 1px #00000047;
 }
+
+@media(max-width:767px){
+    .modal-open .modal{
+        padding: 0;
+    }
+    .stars{
+        text-align: right;
+    }
+    .review .custom-control {
+        flex: 0 0 48%;
+    }
+}
