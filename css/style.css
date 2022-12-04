@@ -150,4 +150,8 @@ hr{
     .review .custom-control {
         flex: 0 0 48%;
     }
+    .stars span {
+        display: block;
+        text-align: right;
+    }
 }
